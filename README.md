@@ -1,15 +1,17 @@
-About catalystcoop.ferc-xbrl-extractor
+About catalystcoop.ferc_xbrl_extractor
 ======================================
 
-Home: https://github.com/catalyst-cooperative/ferc-xbrl-extract
+Home: https://github.com/catalyst-cooperative/ferc-xbrl-extractor
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/catalystcoop.ferc-xbrl-extractor-feedstock/blob/main/LICENSE.txt)
 
-Summary: A tool for extracting data from FERC XBRL Filings.
+Summary: A tool for extracting data from FERC XBRL Filings into SQLite Databases.
 
-Development: https://github.com/catalyst-cooperative/ferc-xbrl-extract
+Development: https://github.com/catalyst-cooperative/ferc-xbrl-extractor
+
+Documentation: https://catalystcoop-ferc-xbrl-extractor.readthedocs.io/en/latest/
 
 Current build status
 ====================
@@ -29,53 +31,53 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-catalystcoop.ferc--xbrl--extractor-green.svg)](https://anaconda.org/conda-forge/catalystcoop.ferc-xbrl-extractor) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/catalystcoop.ferc-xbrl-extractor.svg)](https://anaconda.org/conda-forge/catalystcoop.ferc-xbrl-extractor) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/catalystcoop.ferc-xbrl-extractor.svg)](https://anaconda.org/conda-forge/catalystcoop.ferc-xbrl-extractor) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/catalystcoop.ferc-xbrl-extractor.svg)](https://anaconda.org/conda-forge/catalystcoop.ferc-xbrl-extractor) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-catalystcoop.ferc_xbrl_extractor-green.svg)](https://anaconda.org/conda-forge/catalystcoop.ferc_xbrl_extractor) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/catalystcoop.ferc_xbrl_extractor.svg)](https://anaconda.org/conda-forge/catalystcoop.ferc_xbrl_extractor) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/catalystcoop.ferc_xbrl_extractor.svg)](https://anaconda.org/conda-forge/catalystcoop.ferc_xbrl_extractor) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/catalystcoop.ferc_xbrl_extractor.svg)](https://anaconda.org/conda-forge/catalystcoop.ferc_xbrl_extractor) |
 
-Installing catalystcoop.ferc-xbrl-extractor
+Installing catalystcoop.ferc_xbrl_extractor
 ===========================================
 
-Installing `catalystcoop.ferc-xbrl-extractor` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `catalystcoop.ferc_xbrl_extractor` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `catalystcoop.ferc-xbrl-extractor` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `catalystcoop.ferc_xbrl_extractor` can be installed with `conda`:
 
 ```
-conda install catalystcoop.ferc-xbrl-extractor
-```
-
-or with `mamba`:
-
-```
-mamba install catalystcoop.ferc-xbrl-extractor
-```
-
-It is possible to list all of the versions of `catalystcoop.ferc-xbrl-extractor` available on your platform with `conda`:
-
-```
-conda search catalystcoop.ferc-xbrl-extractor --channel conda-forge
+conda install catalystcoop.ferc_xbrl_extractor
 ```
 
 or with `mamba`:
 
 ```
-mamba search catalystcoop.ferc-xbrl-extractor --channel conda-forge
+mamba install catalystcoop.ferc_xbrl_extractor
+```
+
+It is possible to list all of the versions of `catalystcoop.ferc_xbrl_extractor` available on your platform with `conda`:
+
+```
+conda search catalystcoop.ferc_xbrl_extractor --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search catalystcoop.ferc_xbrl_extractor --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search catalystcoop.ferc-xbrl-extractor --channel conda-forge
+mamba repoquery search catalystcoop.ferc_xbrl_extractor --channel conda-forge
 
-# List packages depending on `catalystcoop.ferc-xbrl-extractor`:
-mamba repoquery whoneeds catalystcoop.ferc-xbrl-extractor --channel conda-forge
+# List packages depending on `catalystcoop.ferc_xbrl_extractor`:
+mamba repoquery whoneeds catalystcoop.ferc_xbrl_extractor --channel conda-forge
 
-# List dependencies of `catalystcoop.ferc-xbrl-extractor`:
-mamba repoquery depends catalystcoop.ferc-xbrl-extractor --channel conda-forge
+# List dependencies of `catalystcoop.ferc_xbrl_extractor`:
+mamba repoquery depends catalystcoop.ferc_xbrl_extractor --channel conda-forge
 ```
 
 
@@ -120,17 +122,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating catalystcoop.ferc-xbrl-extractor-feedstock
+Updating catalystcoop.ferc_xbrl_extractor-feedstock
 ===================================================
 
-If you would like to improve the catalystcoop.ferc-xbrl-extractor recipe or build a new
+If you would like to improve the catalystcoop.ferc_xbrl_extractor recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/catalystcoop.ferc-xbrl-extractor-feedstock are
+Note that all branches in the conda-forge/catalystcoop.ferc_xbrl_extractor-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
@@ -145,5 +147,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@zaneselvans](https://github.com/zaneselvans/)
 * [@zschira](https://github.com/zschira/)
 
