@@ -1,11 +1,11 @@
-About catalystcoop.ferc_xbrl_extractor
-======================================
+About catalystcoop.ferc_xbrl_extractor-feedstock
+================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/catalystcoop.ferc-xbrl-extractor-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/catalyst-cooperative/ferc-xbrl-extractor
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/catalystcoop.ferc-xbrl-extractor-feedstock/blob/main/LICENSE.txt)
 
 Summary: A tool for extracting data from FERC XBRL Filings into SQLite Databases.
 
