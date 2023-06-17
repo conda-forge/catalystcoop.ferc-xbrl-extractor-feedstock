@@ -7,7 +7,7 @@ Home: https://github.com/catalyst-cooperative/ferc-xbrl-extractor
 
 Package license: MIT
 
-Summary: A tool for extracting data from FERC XBRL Filings into SQLite Databases.
+Summary: A tool for extracting data from FERC XBRL regulatory filings into SQLite databases.
 
 Development: https://github.com/catalyst-cooperative/ferc-xbrl-extractor
 
