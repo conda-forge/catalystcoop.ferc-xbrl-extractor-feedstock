@@ -18,11 +18,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8,<3.12
+    - python >=3.8,<3.13
     - setuptools-scm
     - pip
   run:
-    - python >=3.10,<3.12
+    - python >=3.10,<3.13
     - pydantic >=1.9,<3
     - coloredlogs >=14.0,<15.1
     - arelle-release >=2.3,<3
