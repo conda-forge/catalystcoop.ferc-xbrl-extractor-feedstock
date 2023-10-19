@@ -1,5 +1,5 @@
 {% set name = "catalystcoop.ferc_xbrl_extractor" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/catalystcoop.ferc_xbrl_extractor-{{ version }}.tar.gz
-  sha256: ddd5b20fbbaff85a5d1050a17b183289f98a4b4c2028bc2327aeb63acfa8d102
+  sha256: 00d9218cdb33106dcc3dbe908d9a8e883440b68bfba48c37fd2963af1dadf076
 
 build:
   entry_points:
@@ -18,11 +18,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8,<3.12
+    - python >=3.8,<3.13
     - setuptools-scm
     - pip
   run:
-    - python >=3.10,<3.12
+    - python >=3.10,<3.13
     - pydantic >=1.9,<3
     - coloredlogs >=14.0,<15.1
     - arelle-release >=2.3,<3
