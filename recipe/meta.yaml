@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=3.10,<3.13
-    - pydantic >=1.9,<3
+    - pydantic >=2,<3
     - coloredlogs >=14.0,<15.1
     - arelle-release >=2.3,<3
     - frictionless >=4.4,<5
