@@ -14,7 +14,7 @@ build:
     - xbrl_extract = ferc_xbrl_extractor.cli:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -23,15 +23,15 @@ requirements:
     - pip
   run:
     - python >=3.10,<3.13
-    - pydantic >=2,<3
-    - coloredlogs >=14.0,<15.1
     - arelle-release >=2.3,<3
+    - coloredlogs >=14.0,<15.1
     - frictionless >=4.4,<5
-    - sqlalchemy >=1.4,<3
-    - pandas >=1.5,<2.2
-    - stringcase >=1.2,<2
     - lxml >=4.9.1,<5
     - numpy >=1.16,<2
+    - pandas >=1.5,<2.2
+    - pydantic >=2,<3
+    - sqlalchemy >=1.4,<3
+    - stringcase >=1.2,<2
 
 test:
   imports:
