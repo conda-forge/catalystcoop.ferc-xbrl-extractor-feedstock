@@ -29,7 +29,7 @@ requirements:
     - lxml >=4.9.1,<5
     - numpy >=1.16,<2
     - pandas >=1.5,<3
-    - pyarrow >= 14.0.1
+    - pyarrow >=14.0.1
     - pydantic >=2,<3
     - sqlalchemy >=1.4,<3
     - stringcase >=1.2,<2
