@@ -24,7 +24,7 @@ requirements:
     - setuptools-scm
     - pip
   run:
-    - python >={{ python_min }},<3.13
+    - python >={{ python_min }},<3.14
     - arelle-release >=2.3,<3
     - coloredlogs >=14.0,<15.1
     - frictionless >=5,<6
