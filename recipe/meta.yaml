@@ -1,6 +1,6 @@
-{% set python_min = '3.10' %}
+{% set python_min = "3.10" %}
 {% set name = "catalystcoop.ferc_xbrl_extractor" %}
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,14 +8,14 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/catalystcoop_ferc_xbrl_extractor-{{ version }}.tar.gz
-  sha256: 2c7d72397f7be6a6b0f8b9affa5efedabe030013870c5f0a575d456bcecfe55e
+  sha256: 66c20fedaf9544f2ae33fdc876dae34257b820bcc6ff346e6f64575010a8da27
 
 build:
   entry_points:
     - xbrl_extract = ferc_xbrl_extractor.cli:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -24,7 +24,7 @@ requirements:
     - setuptools-scm
     - pip
   run:
-    - python >={{ python_min }},<3.13
+    - python >={{ python_min }},<3.14
     - arelle-release >=2.3,<3
     - coloredlogs >=14.0,<15.1
     - frictionless >=5,<6
