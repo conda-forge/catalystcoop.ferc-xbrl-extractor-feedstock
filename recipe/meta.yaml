@@ -1,14 +1,14 @@
 {% set python_min = "3.11" %}
 {% set name = "catalystcoop.ferc_xbrl_extractor" %}
-{% set version = "1.9.0" %}
+{% set version = "1.10.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/catalystcoop_ferc_xbrl_extractor-{{ version }}.tar.gz
-  sha256: 13102074b6a0c9d622a09b5a4f11ca09b4d40d122282934965769b1483677c48
+  url: https://files.pythonhosted.org/packages/d1/00/3e6de2978df747657710be2dee3e62ad941e82e5114b662cb0fde8d31353/catalystcoop_ferc_xbrl_extractor-{{ version }}.tar.gz
+  sha256: 01eac20a18cb1e22ec12066e38a93f9e379d524d10568fd81a0306195ceff386
 
 build:
   entry_points:
