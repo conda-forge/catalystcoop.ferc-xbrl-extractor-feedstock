@@ -20,7 +20,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/catalystcoop.ferc-xbrl-extractor-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/catalystcoop.ferc-xbrl-extractor-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
@@ -146,6 +148,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@cmgosnell](https://github.com/cmgosnell/)
 * [@jdangerx](https://github.com/jdangerx/)
 * [@zaneselvans](https://github.com/zaneselvans/)
 * [@zschira](https://github.com/zschira/)
